@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dikwayo6e143u"]
+
+[ext_resource type="Script" path="res://Levels/level.cs" id="1_a35a8"]
+
+[node name="Level" type="Node3D"]
+script = ExtResource("1_a35a8")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
+shadow_enabled = true
